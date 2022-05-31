@@ -1,7 +1,7 @@
 FROM php:7.3-alpine
-LABEL maintainer="xaljer@outlook.com"
+LABEL maintainer="dudw@hotmail.com"
 
-ARG KODEXPLORER_VERSION=4.39
+ARG KODEXPLORER_VERSION=4.48.02
 ARG KODEXPLORER_URL="https://github.com/kalcaddle/KodExplorer/archive/${KODEXPLORER_VERSION}.tar.gz"
 
 RUN set -x \

@@ -7,7 +7,7 @@ build:
 
 services:
   kodexplorer:
-    image: xaljer/kodexplorer
+    image: dudw/kodexplorer
     restart: always
     ports:
       - '8006:80'
