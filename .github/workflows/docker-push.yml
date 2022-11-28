@@ -45,7 +45,7 @@ jobs:
         run: |
           echo ::set-output name=docker_platforms::linux/386,linux/amd64,linux/arm64
           echo ::set-output name=docker_image::dudw/kodexplorer
-          echo ::set-output name=docker_tag::4.49.02
+          echo ::set-output name=docker_tag::4.50
           echo ::set-output name=docker_is_push::${PUSH:-false}
 
       - name: Build tag & latest release

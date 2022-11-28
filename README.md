@@ -1,6 +1,6 @@
 # docker-kodexplorer
 
-Docker image of [KodExplorer](https://github.com/dudw/docker-kodexplorer)
+Docker image of [KodExplorer](https://github.com/kalcaddle/KodExplorer)
 
 ## Run
 
