@@ -8,7 +8,7 @@ if [ "$1" = 'php' ] && [ "$(id -u)" = '0' ]; then
 fi
 
 if [ ! -e '/var/www/html/index.php' ]; then
-    cp -a /usr/src/kodexplorer/* /var/www/html/
+    cp -a -f /usr/src/kodexplorer/* /var/www/html/
 fi
 
 exec "$@"
