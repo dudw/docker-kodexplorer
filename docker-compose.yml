@@ -3,7 +3,7 @@ version: '2'
 build:
   context: .
   args:
-    - KODEXPLORER_VERSION=4.51.03
+    - KODEXPLORER_VERSION=4.52.01
 
 services:
   kodexplorer:
